@@ -1,4 +1,4 @@
-# 🩸 AnemiaSense – Week 1 Submission
+# 🩸 AnemiaSense – Week 1 & Week 2 Submission
 
 ## 📌 Project Overview
 **AnemiaSense** is a machine learning-based system designed to detect anemia by analyzing key blood parameters such as Hemoglobin, MCV, MCH, and MCHC.  
@@ -27,7 +27,7 @@ In Week 1, the focus was on:
 
 ---
 
-## 📊 Work Completed
+## 📊 Week 1 Work Completed
 - Loaded dataset from Google Drive into Colab  
 - Checked for missing values and data types  
 - Generated summary statistics  
@@ -38,10 +38,41 @@ In Week 1, the focus was on:
 
 ---
 
-## 🧩 Next Steps (Week 2)
+## 🚀 Week 2 – Model Building & Evaluation
+
+### ✅ Objectives
 - Train multiple machine learning models for anemia prediction  
-- Compare model accuracy  
-- Perform hyperparameter tuning  
+- Compare their accuracy and evaluate performance  
+- Save the best model for deployment (Week 3)
+
+### ⚙️ Work Completed
+- Trained two models: **Logistic Regression** and **Random Forest**
+- Achieved **98.95 % accuracy** with Logistic Regression  
+- Achieved **100 % accuracy** with Random Forest ✅  
+- Selected **Random Forest** as the best-performing model
+- Saved the trained model as `model.pkl` for deployment  
+
+### 📈 Visuals Created
+- Confusion matrix for Random Forest  
+- Model comparison bar chart  
+
+---
+
+## 💾 Files in Repository
+| File Name | Description |
+|------------|--------------|
+| `anemia.csv` | Dataset used for training and testing |
+| `Week1_AnemiaSense.ipynb` | Data preparation and EDA notebook |
+| `Week2_AnemiaSense.ipynb` | Model training and evaluation notebook |
+| `model.pkl` | Saved Random Forest model |
+| `README.md` | Project documentation |
+
+---
+
+## 🧩 Next Steps (Week 3)
+- Build a web interface using **Streamlit** or **Flask**  
+- Integrate `model.pkl` for real-time predictions  
+- Deploy the app for end-user access  
 
 ---
 
@@ -51,5 +82,5 @@ B.Tech CSE Student
 
 ---
 
-✅ *This repository contains the Week 1 milestone submission for the AnemiaSense project.*
+
 
